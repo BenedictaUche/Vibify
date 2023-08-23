@@ -1,0 +1,117 @@
+:root {
+  --landing-color: #e5e5e5;
+  --landing-btn-color: #580127;
+  --light-brown: #a17e6c;
+  --light-blue: #798fb0;
+  --font-landing: "Poppins", sans-serif;
+  --font-family: "Krona One", sans-serif;
+  --font-dashboard: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.land-body {
+  font-family: var(--font-landing);
+  background-color: var(--landing-color);
+  height: fit-content;
+}
+
+.land-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.land-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.land-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.land-logo h3 {
+  font-family: var(--font-landing);
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: var(--landing-btn-color);
+  background: linear-gradient(180deg, #798fb0 0%, #e0cabf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.land-nav-btn button {
+  background-color: var(--landing-btn-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: var(--font-landing);
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+.texts h2 {
+  color: #000;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.texts h2 > .wine {
+  color: var(--landing-btn-color);
+}
+.texts h2 > .lightbrown {
+  color: var(--light-brown);
+}
+.texts h2 > .lightblue {
+  color: var(--light-blue);
+}
+
+.texts p {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texts button {
+    background-color: var(--landing-btn-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: var(--font-landing);
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
+
